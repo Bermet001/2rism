@@ -1,0 +1,13 @@
+# System
+.DS_Store
+
+# PhpStorm
+.idea
+
+# VSCode
+.vscode
+
+# Project
+.env
+
+/docker-compose.*.yml

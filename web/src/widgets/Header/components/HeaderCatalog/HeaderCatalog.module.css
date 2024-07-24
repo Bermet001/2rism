@@ -1,0 +1,50 @@
+.catalog {
+  gap: 0.625rem;
+  width: 100%;
+  height: 18.75rem;
+}
+
+.catalogContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.line {
+  border-left: 0.0625px solid var(--text-color-D1D5DB);
+  height: 14.75rem;
+}
+
+.navigations {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.innerLink {
+  color: #717171;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6875rem;
+}
+
+.hoveredLinkText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.875rem;
+}
+
+.link:hover {
+  color: var(--brand-color-116ACC);
+}
+
+.link {
+  width: 12.5rem;
+  cursor: pointer;
+}

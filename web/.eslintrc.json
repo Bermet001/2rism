@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  
+  "rules": {
+    // Отступ слева
+    "indent": [2, 4],
+    // Исключает двойные кавычки
+    "quotes": [2, "single", { "avoidEscape": true }],
+    // Запрещает использование ";" в проекте
+    "semi": [2, "never"],
+    // Максимальное количество отступов между строками кода 1
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    // Не использованные переменные
+    "no-unused-vars": "warn",
+    // Будет ругаться если в useEffect используется state, но его нет в массиве зависимостей
+    "react-hooks/exhaustive-deps": "error",
+    // Запрещает использование snake_case, PascalCase и тд.
+    "camelcase": "error",
+    // Предупреждение об использовании console.log()
+    "no-console": "warn",
+    // Запрещает использование var в проекте
+    "no-var": "error",
+    // Если переменная не изменяется после ее создания, предложит использовать const вместо let
+    "prefer-const": "warn",
+    // Кол-во символов в одной строке не должно превышать 150
+    "max-len": ["warn", { "code": 150 }],
+    // Пробел в {}
+    "object-curly-spacing": ["warn", "always"]
+   }
+}

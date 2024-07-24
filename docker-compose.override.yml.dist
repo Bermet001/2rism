@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nodejs:
+    build:
+      dockerfile: Dockerfile.prod
+    container_name: golden_eyes_web_node
+    ports:
+      - "83:88"
+    platform: linux/x86_64
+    restart: always

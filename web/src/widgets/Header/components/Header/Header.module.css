@@ -1,0 +1,41 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1240;
+    background-color: var(--background-color-EEEEEE);
+    padding: 0.925rem 0 ;
+  }
+  
+  .storesHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .buttons_contaiter {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  
+    .log-in {
+      width: 5.75rem;
+      height: 3.25rem;
+    }
+  
+    .language {
+      width: 3.0625rem;
+      height: 3.25rem;
+      border-color: var(--brand-color-033559);
+      color: var(--brand-color-033559);
+    }
+  
+    .language:hover {
+      border-color: var(--brand-color-116ACC);
+      color: var(--brand-color-116ACC);
+      background-color: var(--text-color-FFFFFF);
+    }
+  }
+  

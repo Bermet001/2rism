@@ -1,0 +1,27 @@
+
+.buttons_contaiter {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center !important;
+    position: relative;
+    z-index: 2;
+  
+    .log-in {
+      width: 5.75rem;
+      height: 3.25rem;
+    }
+  
+    .language {
+      width: 3.0625rem;
+      height: 2.6rem;
+      border-color: var(--brand-color-033559);
+      color: var(--brand-color-033559);
+    }
+  
+    .language:hover {
+      border-color: var(--brand-color-116ACC);
+      color: var(--brand-color-116ACC);
+      background-color: var(--text-color-FFFFFF);
+    }
+  }
+  

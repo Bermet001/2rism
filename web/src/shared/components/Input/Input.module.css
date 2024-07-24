@@ -1,0 +1,25 @@
+.input {
+    width: auto;
+    height: 64px;
+    border-radius: 7px;
+    outline: none;
+    padding: 8px 10px 8px 16px;
+    border: 1px solid var(--text-color-9CA3AF);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: var(--brand-color-FFFFFF);
+}
+
+.input:focus, .input:hover {
+    border-color: var(--brand-color-116ACC);
+    background: var(--brand-color-A0C3FF1A);
+}
+
+.error {
+    border-color: var(--brand-color-FD4E5D);
+}
+
+.success {
+    border-color: var(--state-color-27AE60);
+}

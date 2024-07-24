@@ -1,0 +1,28 @@
+:root {
+  --brand-color-116ACC: #116acc;
+  --brand-color-182233: #182233;
+  --brand-color-033559: #033559;
+  --brand-color-B3CEE2: #b3cee2;
+  --brand-color-D9DDE7: #d9dde7;
+  --brand-color-FD4E5D: #fd4e5d;
+  --brand-color-A0C3FF1A: #a0c3ff1a;
+  --brand-color-FFFFFF: #ffffff;
+
+  --background-color-EEEEEE: #eeeeee;
+
+  --text-color-000000: #000000;
+  --text-color-1F2937: #1f2937;
+  --text-color-374151: #374151;
+  --text-color-4B5563: #4b5563;
+  --text-color-6B7280: #6b7280;
+  --text-color-9CA3AF: #9ca3af;
+  --text-color-D1D5DB: #d1d5db;
+  --text-color-F3F4F6: #f3f4f6;
+  --text-color-FFFFFF: #ffffff;
+  
+
+  --state-color-2F80ED: #2f80ed;
+  --state-color-27AE60: #27ae60;
+  --state-color-E2B93B: #e2b93b;
+  --state-color-EB5757: #eb5757;
+}

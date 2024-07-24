@@ -1,0 +1,135 @@
+@import "./variables.css";
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@800&family=Montserrat:ital,wght@0,500;1,400&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--text-grey-color);
+  border-radius: 20px;
+}
+
+.web {
+  min-height: 100vh;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+}
+
+main {
+  min-height: 100%;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  display: flex !important;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+}
+
+.slick-dots button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+  position: relative;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+
+.slick-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  content: " ";
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 4.8px;
+}
+
+.slick-active button:before {
+  background-color: var(--base-white-color) !important;
+}
+
+.css-yx0nvq-MuiButtonBase-root-MuiPaginationItem-root {
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+  color: #aaadb2 !important;
+}
+
+.css-yx0nvq-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: rgba(115, 185, 255, 0.1) !important;
+  border-radius: 12px !important;
+  color: #4268b0 !important;
+  font-weight: 700;
+}
+
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root span,
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected
+  span {
+  font-family: "Inter" !important;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+  color: var(--base-brand-color) !important;
+}
+
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected
+  svg
+  path {
+  fill: var(--base-brand-color);
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: var(--base-brand-color) !important;
+}
+
+@media (max-width: 768px) {
+  .slick-dots {
+    bottom: -30px;
+    gap: 0px;
+  }
+
+  .slick-dots li button:before {
+    width: 6px;
+    height: 6px;
+  }
+
+  .slick-dots li button:before {
+    background: var(--border-grey2-color);
+  }
+
+  .slick-active button:before {
+    background: var(--base-brand-color) !important;
+  }
+}

@@ -1,0 +1,22 @@
+.innerLink {
+  color: #717171;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6875rem;
+}
+
+.hoveredLinkText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.875rem;
+}
+
+.link:hover {
+  color: var(--brand-color-116ACC);
+}
+
+.link {
+  width: 12.5rem;
+}
